@@ -26,6 +26,15 @@ namespace desafio_21_dias_csharp_apis
             //     indice++;
             // }
 
+            // do
+            // {
+            //     Console.WriteLine("Digite\n1 -para sair\n0 - para continuar");
+            //     int sair = Convert.ToInt32(Console.ReadLine());
+            //     if (sair == 1) break;
+            //     else if (sair == 2) continue;
+            // }
+            // while (true);
+
             // for (int i = numeroInicial; i <= numeroFinal; i++)
             // {
             //     Console.WriteLine(i);
