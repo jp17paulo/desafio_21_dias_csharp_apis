@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace desafio_21_dias_csharp_apis
 {
@@ -38,6 +39,58 @@ namespace desafio_21_dias_csharp_apis
             }
 
 
+            // int[][] alunos;
+
+            // alunos[0][0] = "Danilo";
+            // alunos[1][0] = "001";
+            // alunos[2][0] = "10, 8, 5";
+
+            // alunos[0][1] = "Jaison";
+            // alunos[1][1] = "001";
+            // alunos[2][1] = "10, 8, 5";
+
+            // alunos[0][2] = "Sheila";
+            // alunos[1][2] = "001";
+            // alunos[2][2] = "10, 8, 5";
+
+            // const int NOME = 0
+            // const int MATRICULA = 1
+            // const int NOTAS = 2
+
+            // int linha = 0
+
+            // alunos[linha][NOME]
+            // alunos[linha][MATRICULA]
+            // alunos[linha][NOTAS]
+
+            /*
+            Valkiria é a diretora da escola Mundo Melhor
+            Ela precisa de um programa que armazene alunos com suas matrículas e notas em uma tabela
+            no final ela tem a necessidade de saber se o aluno foi aprovado ou não.
+            Faça um programa para resolver a questão da Valkiria
+            */
+
+            List<dynamic> alunos = new List<dynamic>();
+            alunos.Add(new
+            {
+                Nome = "Danilo",
+                Matricula = "001",
+                Notas = "10, 8, 7"
+            });
+
+            alunos.Add(new
+            {
+                Nome = "Sheila",
+                Matricula = "001",
+                Notas = "10, 8, 7"
+            });
+
+            alunos.Add(new
+            {
+                Nome = "Stela",
+                Matricula = "001",
+                Notas = "10, 8, 7"
+            });
 
 
             //Se tivesse algum código abaixo do return não executaria
