@@ -6,91 +6,45 @@ namespace desafio_21_dias_csharp_apis
     {
         static void Main(string[] args)
         {
-            /*=========================*/
-            /*==PADRÃO DE CODIFICAÇÃO==*/
-            /*=========================*/
+            /*
+                Daniel é um agricultor e precisa de um programa que ao digitar o numero inicial 1 e final 10, o programa mostra
+                repetidamente todos os números na tela 
+            */
 
-            ///camelCase
-            ///Ex.: numeroUm
+            Console.WriteLine("Digite o numero inicial");
+            var numeroInicial = Convert.ToInt32(Console.ReadLine());
 
-            ///PascalCase
-            ///Ex.:Program
+            Console.WriteLine("Digite o número final");
+            int numeroFinal = Convert.ToInt32(Console.ReadLine());
 
-            ///underscore
-            ///Ex.: unders_core
+            int indice = numeroInicial;
 
-            /*=========================*/
-            /*=========================*/
-            /*=========================*/
-
-            /// var numerroUm = 1;
-            /// int numeroDois = 2;
-
-            /*===============================================*/
-            /*======Dados disponibilizados pelo usuário======*/
-            /*===============================================*/
-
-            // Console.WriteLine("Digite o primeiro número: ");
-            // var numerroUm = Convert.ToInt32(Console.ReadLine());
-
-            // Console.WriteLine("Digite o segundo número: ");
-            // int numeroDois = Convert.ToInt32(Console.ReadLine());
-
-            /// var soma = numerroUm + numeroDois;
-
-            //var soma = numerroUm * numeroDois;
-
-            /// Console.WriteLine(soma);
-
-            ///Console.WriteLine($"Que é o resultado da soma dos {numerroUm} + {numeroDois} ?");
-            //Console.WriteLine($"Digite o número premiado: ");
-            //int resultado = Convert.ToInt32(Console.ReadLine());
-
-            /// if (soma == resultado)
-            // if (soma == resultado || resultado == 1 || resultado == 10 || (resultado >= 100 && resultado <= 200))
+            // while (indice <= numeroFinal)
             // {
-            //     Console.WriteLine($"Parabéns !!! Você acertou o resultado:  {soma}");
-            // }
-            // else if (soma == 20)
-            // {
-            //     Console.WriteLine($"Você acertou a opção extraordinária:  incrível !!!");
-            // }
-            // else
-            // {
-            //     Console.WriteLine($"O resultado é:  {soma}, você errou, tente novamente !!!");
+            //     Console.WriteLine(indice);
+            //     indice++;
             // }
 
-            ///Console.WriteLine($"A soma das variáveis é: {soma}");
-            ///Console.WriteLine("A soma das variáveis é: " + soma);
-            ///Console.WriteLine("A soma das variáveis é: {0}", soma);
+            // for (int i = numeroInicial; i <= numeroFinal; i++)
+            // {
+            //     Console.WriteLine(i);
+            // }
 
-            int caseSwitch = 1;
+            int[] itens = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            switch (caseSwitch)
+            foreach (int item in itens)
             {
-                case 1:
-                    Console.WriteLine("Case 1");
-                    break;
-                case 2:
-                    Console.WriteLine("Case 2");
-                    break;
-                default:
-                    Console.WriteLine("Default case");
-                    break;
+                Console.WriteLine(item);
             }
 
-            if (caseSwitch == 1)
-            {
-                Console.WriteLine("Case 1");
-            }
-            else if (caseSwitch == 2)
-            {
-                Console.WriteLine("Case 2");
-            }
-            else
-            {
-                Console.WriteLine("Default case");
-            }
+
+
+
+            //Se tivesse algum código abaixo do return não executaria
+            return;
+
+
+            //Console.WriteLine("teste");
         }
     }
 }

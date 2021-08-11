@@ -1,0 +1,16 @@
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.exe
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.deps.json
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.runtimeconfig.json
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.runtimeconfig.dev.json
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\ref\desafio_21_dias_csharp_apis.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\desafio_21_dias_csharp_apis.pdb
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.csproj.AssemblyReference.cache
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.AssemblyInfoInputs.cache
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.AssemblyInfo.cs
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.csproj.CoreCompileInputs.cache
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\ref\desafio_21_dias_csharp_apis.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.pdb
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.genruntimeconfig.cache
