@@ -1,10 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace console_desafio21dias_api
 {
     class Aluno
     {
+        #region "Propriedades"
+        public int Id { get; set; }
         public string Nome { get; set; }
         public string Matricula { get; set; }
 
@@ -22,6 +26,9 @@ namespace console_desafio21dias_api
             }
         }
 
+        #endregion
+
+        #region Metodos de instancia
         public double CalcularMedia()
         {
             var somaNotas = 0.0;
@@ -36,5 +43,24 @@ namespace console_desafio21dias_api
         {
             return this.CalcularMedia() >= 7 ? "Aprovado" : "Reprovado";
         }
+
+        public void Apagar()
+        {
+            AlunoService.ApagarPorId(this.Id);
+        }
+
+        public void Salvar()
+        {
+            if (this.Id > 0)
+            {
+                AlunoService.Atualizar(this);
+            }
+            else
+            {
+                AlunoService.Incluir(this);
+            }
+        }
+
+        #endregion
     }
 }

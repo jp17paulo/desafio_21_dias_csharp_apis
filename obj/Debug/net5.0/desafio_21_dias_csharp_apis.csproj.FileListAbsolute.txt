@@ -14,3 +14,10 @@ C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\
 C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\ref\desafio_21_dias_csharp_apis.dll
 C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.pdb
 C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.genruntimeconfig.cache
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Dropbox\Torne-se_um_programador\CSharp\desafio_21_dias_csharp_apis\obj\Debug\net5.0\desafio_21_dias_csharp_apis.csproj.CopyComplete

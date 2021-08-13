@@ -8,12 +8,30 @@ namespace desafio_21_dias_csharp_apis
     {
         static void Main(string[] args)
         {
-            /*
-            Valkiria é a diretora da escola Mundo Melhor
-            Ela precisa de um programa que armazene alunos com suas matrículas e notas em uma tabela
-            no final ela tem a necessidade de saber se o aluno foi aprovado ou não.
-            Faça um programa para resolver a questão da Valkiria
-            */
+            new Aluno() { Nome = "Gilmar", Matricula = "003", Notas = new List<double>() { 6, 6, 9 } }.Salvar();
+            // new Aluno(){Nome = "Raul", Matricula = "004", Notas = new List<double>() {5, 6, 3} }.Salvar();
+            // new Aluno(){Nome = "Marina", Matricula = "005", Notas = new List<double>() {9, 9, 10} }.Salvar();
+
+
+            var alunosNoBanco = AlunoService.Todos();
+            foreach (var aluno in alunosNoBanco)
+            {
+                // aluno.Notas.Add(10);
+                // aluno.Salvar();
+                // aluno.Apagar();
+                // break;
+
+                Console.WriteLine("────────────────────────────────");
+                Console.WriteLine($"Nome: {aluno.Nome}");
+                Console.WriteLine($"Matrícula: {aluno.Matricula}");
+                Console.WriteLine($"Notas: {string.Join(",", aluno.Notas.ToArray())}");
+                Console.WriteLine($"Média: {aluno.CalcularMedia()}");
+                Console.WriteLine($"Situação: {aluno.Situacao()}");
+                Console.WriteLine("────────────────────────────────");
+            }
+
+            // return;
+
 
             Console.WriteLine("Bem vinda, Valkiria!\n");
             var opcao = "s";
@@ -50,6 +68,7 @@ namespace desafio_21_dias_csharp_apis
                 Console.WriteLine("────────────────────────────────");
             }
             Console.WriteLine("────────────────────────────────");
+
         }
     }
 }
